@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
-const env = require('dotenv').config();
+require('dotenv').config();
 
 const indexRouter = require('./routes/index');
 const sendRouter = require('./routes/send');
