@@ -3,7 +3,7 @@ const router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res) {
-    res.status(404).send('Not Found')
+    res.status(404).json({msg: 'Not Found'})
 });
 
 module.exports = router;
