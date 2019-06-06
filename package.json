@@ -8,6 +8,7 @@
   "envFile": "./.env",
   "dependencies": {
     "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
     "cron": "^1.7.1",
     "debug": "~2.6.9",
     "dotenv": "^8.0.0",
